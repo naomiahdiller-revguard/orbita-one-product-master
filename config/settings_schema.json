@@ -1,0 +1,23 @@
+[
+  {"name":"theme_info","theme_name":"Orbita One Product Master","theme_version":"1.0.0","theme_author":"Orbita","theme_documentation_url":"https://github.com/naomiahdiller-revguard/orbita-one-product-master","theme_support_url":"https://github.com/naomiahdiller-revguard/orbita-one-product-master"},
+  {"name":"Brand identity","settings":[
+    {"type":"text","id":"brand_name","label":"Brand name","default":"ORBITA"},
+    {"type":"image_picker","id":"logo","label":"Logo image"},
+    {"type":"range","id":"logo_width","label":"Logo width","min":80,"max":260,"step":10,"unit":"px","default":140},
+    {"type":"select","id":"visual_style","label":"Visual style","default":"soft","options":[{"value":"soft","label":"Soft and tactile"},{"value":"bold","label":"Bold and viral"},{"value":"minimal","label":"Clean and minimal"},{"value":"dark","label":"Dark and cinematic"}]}
+  ]},
+  {"name":"Colors","settings":[
+    {"type":"color","id":"color_ink","label":"Dark background","default":"#102f3d"},
+    {"type":"color","id":"color_surface","label":"Surface background","default":"#e9fbff"},
+    {"type":"color","id":"color_paper","label":"Light background","default":"#ffffff"},
+    {"type":"color","id":"color_text","label":"Main text","default":"#0b3342"},
+    {"type":"color","id":"color_muted","label":"Muted text","default":"#597882"},
+    {"type":"color","id":"color_accent","label":"Primary accent","default":"#65ddec"},
+    {"type":"color","id":"color_accent_2","label":"Secondary accent","default":"#b8a7ff"}
+  ]},
+  {"name":"Shape and buttons","settings":[
+    {"type":"range","id":"radius","label":"Card corner radius","min":0,"max":40,"step":2,"unit":"px","default":24},
+    {"type":"range","id":"button_radius","label":"Button corner radius","min":0,"max":30,"step":2,"unit":"px","default":28},
+    {"type":"checkbox","id":"enable_reveal","label":"Enable gentle scroll animation","default":true}
+  ]}
+]
